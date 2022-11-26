@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: Outfit;
+}
+
+.qr-img {
+  max-width: 98%;
+  border-radius: 1rem;
+}
+
+.container {
+  margin: 50vh auto;
+  transform: translateY(-50%);
+  max-width: 37.5rem;
+  height: 60rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  gap: 3rem;
+  border-radius: 2rem;
+  padding: 2rem;
+  box-shadow: 5px 10px 30px 5px hsl(210, 29%, 84%);
+}
+
+.title {
+  width: 30rem;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 2.5rem;
+}
+
+.text {
+  font-size: 1.6rem;
+  color: hsl(219, 20%, 71%);
+  text-align: center;
+  padding-inline: 2.8rem;
+}
+/* This is my solution for the Qr-code Challenge.
+Thanks for checking it out. Suggestions and hints
+are always welcome and appreciated, Peace \0/ */
